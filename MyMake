@@ -1,0 +1,8 @@
+all: makeDirectory
+	g++ -g -o build/ip-to-location.exe ip-to-location.cpp -lcurl
+
+makeDirectory:
+	mkdir -p build
+
+clean:
+	rm -rf build

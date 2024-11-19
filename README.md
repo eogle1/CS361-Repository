@@ -13,5 +13,6 @@ One example of how to receive this response via c++ is:\
 getline(iFile, str);\
 with iFile being an ifstream object that has opened pipe.txt, and str being an empty string.
 ## UML Diagram
-Currently in progress.
+![UML Diagram][def]
 
+[def]: image.png
